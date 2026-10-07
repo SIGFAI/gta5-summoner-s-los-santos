@@ -1,0 +1,9 @@
+Summoner's Los Santos: moments the clip must show (ticked only when seen in the preview screenshots)
+
+[x] 1. Minion waves: blue Order and red Void minions spawn at the two glowing nexus towers and march down the runway lane, health bars and team rings over their heads, and clash in the middle (GTA peds shooting and bashing each other). Seen at 7 s and 12 s.
+[x] 2. Q Starbolt: the champion fires a skillshot down the lane that pierces the wave, knocks minions back (GTA ragdoll), gold pops up on each kill, the Q icon goes on cooldown. Seen at 12 s (impact flash, +21g). The bolt itself is only visible for a moment.
+[x] 3. W Aegis and E Phase Dash: a blue shield bubble with rings around the champion and +40 heals on allies (seen at 18 s), then a dash toward the enemy turret (seen at 22 s). Weak: the dash is easy to miss, it reads mostly through the caption and the cooldown icon.
+[x] 4. R Starfall: red ring telegraph, flaming meteors with real GTA explosions rain on the enemy turret, banner "ENEMY TURRET DESTROYED" (seen at 27 s).
+[x] 5. The nexus is exposed, the player's own carbine and the minions wear it down (nexus bar drops, seen at 38 s), the nexus explodes and VICTORY appears (seen at 41 to 46 s). Weak: the explosion itself is over fast, the screenshots show the smoke afterwards.
+
+Interactions with GTA: the player's carbine hurts the nexus; GTA peds are the minions and fight with their own guns; Starfall uses GTA explosions and fire; Q ragdolls and kills GTA peds.

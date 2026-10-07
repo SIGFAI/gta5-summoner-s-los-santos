@@ -1,0 +1,1 @@
+Copy the mod folder into your FiveM server's resources as sigf_mod, add ensure sigf_mod to server.cfg and join. A lane with two nexus towers appears where you stand; minion waves march. Press Q, Z, X and C to cast Q, W, E and R (rebind them in FiveM key settings).

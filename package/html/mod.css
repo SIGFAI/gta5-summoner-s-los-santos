@@ -1,0 +1,38 @@
+#mod { position: fixed; inset: 0; pointer-events: none; font-family: 'Bebas Neue', 'Inter', sans-serif; color: #f0e6d2; }
+#lol-top { position: absolute; top: 1.6vh; left: 50%; transform: translateX(-50%); display: flex; align-items: flex-start; gap: 1.2vw; }
+#lol-top .side { width: 25vw; }
+#lol-top .nx { position: relative; height: 3.4vh; border: 2px solid #c8aa6e; background: #0a1424cc; box-shadow: 0 0 10px #000a; overflow: hidden; }
+#lol-top .fill { height: 100%; transition: width .3s; }
+#lol-top .blue .fill { background: linear-gradient(#59c8ff, #1763c9); box-shadow: 0 0 12px #3aa0ff; }
+#lol-top .red .fill { background: linear-gradient(#ff7a59, #b01818); box-shadow: 0 0 12px #ff4030; margin-left: auto; }
+#lol-top .nx span { position: absolute; inset: 0; text-align: center; font-size: 2.6vh; line-height: 3.4vh; text-shadow: 0 0 4px #000, 0 0 4px #000; letter-spacing: 2px; }
+#lol-top .pips { display: none; }
+#lol-top .mid { text-align: center; }
+.score { display: flex; align-items: center; gap: 0.7vw; background: #0a1424dd; border: 2px solid #c8aa6e; padding: 0.2vh 1vw; height: 3.4vh; font-size: 3vh; box-shadow: 0 0 10px #000a; }
+.score b { font-size: 3.6vh; min-width: 2ch; }
+.score i { font-style: normal; font-size: 1.8vh; letter-spacing: 3px; opacity: .8; }
+.score em { font-style: normal; color: #f0e6d2; font-size: 3vh; min-width: 4ch; text-align: center; }
+#kb { color: #59c8ff; text-align: right; } #kr { color: #ff6a50; }
+#lol-banner { position: absolute; top: 13vh; left: 50%; transform: translate(-50%, -10px); opacity: 0; transition: all .3s; font-family: 'Luckiest Guy', 'Bebas Neue'; font-size: 5.6vh; letter-spacing: 3px; text-shadow: 0 0 12px #000, 3px 3px 0 #000; white-space: nowrap; padding: 0.6vh 3vw; background: linear-gradient(90deg, #0000, #0a1424e0 20%, #0a1424e0 80%, #0000); }
+#lol-banner.in { opacity: 1; transform: translate(-50%, 0); }
+#lol-end { position: absolute; top: 28vh; left: 0; right: 0; text-align: center; font-family: 'Luckiest Guy'; font-size: 20vh; letter-spacing: 8px; opacity: 0; transition: opacity .6s, transform .6s; transform: scale(1.4); text-shadow: 0 0 30px currentColor, 5px 5px 0 #000; background: linear-gradient(90deg, #0000, #000a 25%, #000a 75%, #0000); }
+#lol-end.in { opacity: 1; transform: scale(1); }
+#lol-end.win { color: #ffd45a; } #lol-end.lose { color: #ff5a4a; }
+#lol-bar { position: absolute; bottom: 3vh; left: 50%; transform: translateX(-50%); display: flex; align-items: flex-end; gap: 1.5vw; }
+.champ { background: #0a1424dd; border: 2px solid #c8aa6e; padding: 0.8vh 1vw; width: 14vw; box-shadow: 0 0 10px #000a; }
+.champ .nm { font-size: 3vh; letter-spacing: 3px; color: #ffe08a; }
+.champ .lv { font-size: 2vh; opacity: .8; }
+.champ .hp { height: 1.4vh; background: #1a2a1a; border: 1px solid #000; margin: 0.4vh 0; }
+.champ .hp .fill { height: 100%; background: linear-gradient(#7aff7a, #1c9c2c); transition: width .2s; }
+.gold { display: flex; align-items: center; gap: 0.5vw; font-size: 3vh; color: #ffd45a; }
+.coin { width: 2vh; height: 2vh; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff3b0, #e0a800 60%, #8a6200); display: inline-block; }
+.abil { display: flex; gap: 0.8vw; }
+.slot { position: relative; width: 8.2vh; height: 8.2vh; border: 3px solid #c8aa6e; background: #000; box-shadow: 0 0 10px #000a; filter: saturate(.5) brightness(.75); }
+.slot.ready { filter: none; box-shadow: 0 0 14px #ffd45a99; }
+.slot img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.slot .cdv { position: absolute; left: 0; right: 0; bottom: 0; height: 0; background: #000c; }
+.slot .cdt { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 4vh; text-shadow: 0 0 5px #000, 0 0 5px #000; }
+.slot .key { position: absolute; top: -1.2vh; left: -1vh; width: 2.8vh; height: 2.8vh; background: #0a1424; border: 2px solid #c8aa6e; text-align: center; font-size: 2.2vh; line-height: 2.6vh; }
+.slot .an { position: absolute; bottom: -3vh; left: -1vw; right: -1vw; text-align: center; font-size: 1.7vh; letter-spacing: 2px; text-shadow: 0 0 4px #000; opacity: .9; }
+.slot.pop { animation: pop .35s; }
+@keyframes pop { 0% { transform: scale(1.35); box-shadow: 0 0 40px #fff; } 100% { transform: scale(1); } }
