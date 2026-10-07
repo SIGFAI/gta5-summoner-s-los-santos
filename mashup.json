@@ -1,0 +1,229 @@
+{
+  "id": "sigf/gta5-summoner-s-los-santos",
+  "version": "1.0.0",
+  "name": "Summoner's Los Santos",
+  "tagline": "League of Legends takes over Los Santos: the player gets champion-style Q W E R abilities with cooldowns, and minion waves march down the streets toward a glowing nexus downtown. Destroy the enemy nexus to win.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gta5",
+      "role": "host",
+      "engine": "GTA V Legacy + FiveM (local FXServer, CfxLua 5.4 resource, NUI HTML overlay, streamed .ydr props)",
+      "apps": {
+        "steam": "271590"
+      }
+    },
+    {
+      "game": "leagueoflegends",
+      "role": "guest",
+      "label": "League of Legends",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fivem"
+    }
+  ],
+  "install": [
+    {
+      "game": "gta5",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gta5-summoner-s-los-santos.zip",
+          "dst": "{fivem}/resources/sigf_summoner_s_los_santos",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "client.lua",
+              "sha256": "7605116fe85aeda210fe933e6b6f1b6ad2b93170db74950b4735cacce24797ad"
+            },
+            {
+              "path": "demo.lua",
+              "sha256": "ffaab87c5ab998c0713f5545c56f70b9cb09ed682d6dbb6bedde0b49c1345c57"
+            },
+            {
+              "path": "fxmanifest.lua",
+              "sha256": "3bec4e94ce80ff7c42e137d4b11c1078de0974604e741d8f03e12a0bd8668b0d"
+            },
+            {
+              "path": "html/mod.css",
+              "sha256": "0cd849ecc3140f0bdd7f3131aa4dd3db646e93c92c2f63ee07cbcadf5c84b1b5"
+            },
+            {
+              "path": "html/mod.js",
+              "sha256": "d8f91c94040c665790dd250641dcc18a1ba0e1e5f282393756eaf60e4e303ae3"
+            },
+            {
+              "path": "img/icon_e.png",
+              "sha256": "3e83618baaa6f51e8822ebbd717f7eb4293b4f6f2712069f8821ae9d70b23dee"
+            },
+            {
+              "path": "img/icon_q.png",
+              "sha256": "8b0b5abec61713816ff80738c61ef3c58a0baf97c2200ef47a5163f055018fb5"
+            },
+            {
+              "path": "img/icon_r.png",
+              "sha256": "2ee55cafc42892a3fae73d6b5df6f54fbda7999002c2b2c0dc3c7ae2db2e0060"
+            },
+            {
+              "path": "img/icon_w.png",
+              "sha256": "c1ffdb5ab96802432b0af540ca8d92381b53a8b39a792e494055469a712fb635"
+            },
+            {
+              "path": "img/tex_nexus_blue.png",
+              "sha256": "9451a1d85308d520be11c1f3781766d5a345676cee926feb99bfe42d4c070c70"
+            },
+            {
+              "path": "img/tex_nexus_red.png",
+              "sha256": "bd5791e3deb464c3acf29f81fbe9f46df65a84003f74b627d93c5605c1342b61"
+            },
+            {
+              "path": "img/tex_turret_blue.png",
+              "sha256": "1c526f3260f60654eecdd0eb99b3d42a1dc0d68885f8b9c47c1b8a3d998c2804"
+            },
+            {
+              "path": "img/tex_turret_red.png",
+              "sha256": "456438bbe05bab428ff03b596809f8984c7f2676964aef4f06e7248f772340a4"
+            },
+            {
+              "path": "lib/cl_bricks.lua",
+              "sha256": "2b8b55eb059aae8d51b7d9fe8a6264174c9156e6ebe9ba998165086087136bd4"
+            },
+            {
+              "path": "lib/cl_demo.lua",
+              "sha256": "00e02ecdcdf629411cfdbbe780e993eec6cd72b663b9de7052c34c175fc94d4d"
+            },
+            {
+              "path": "lib/cl_ready.lua",
+              "sha256": "ef9bd4698240643ffefc8374dc394ca25c988d2851c6ea613f43be31c850b3cb"
+            },
+            {
+              "path": "lib/nui/hud.css",
+              "sha256": "8dddfe6c6a3df9be201f6ff899bef6543900ce732f08fd84851fc7a99600199a"
+            },
+            {
+              "path": "lib/nui/hud.html",
+              "sha256": "4f50adc689e98702c29b99d7ba56b40a7a62f625da26775384db7d5afaa02a65"
+            },
+            {
+              "path": "lib/nui/hud.js",
+              "sha256": "d57cb6be5fff6f6f7452540d4edc033cdfb7d535c3193922dc24a75aa013ac38"
+            },
+            {
+              "path": "lib/sh_bricks.lua",
+              "sha256": "c84f8853c8a45a51f589513c31f1d567d40b931a54e744419077a5ea72a43023"
+            },
+            {
+              "path": "lib/sv_bricks.lua",
+              "sha256": "5fc3c94d19b751f0dc08dfb6c8de49bfd2005ebe91f557fcd1dce0f5fb3eab34"
+            },
+            {
+              "path": "sfx/e_dash.ogg",
+              "sha256": "9355efe2c6dc4e6969a42baafc71a083a5544c1d87e30399324e31a42a500b89"
+            },
+            {
+              "path": "sfx/nexus_boom.ogg",
+              "sha256": "2dd5fa3f2e691b9af12e68ef05e2be34a6cd46ae1e50e3733940df0e60c42941"
+            },
+            {
+              "path": "sfx/q_cast.ogg",
+              "sha256": "80732a5377a0dc52bb3d3214bd061dd1f0eee73f8d4e68a33f5307c05103f273"
+            },
+            {
+              "path": "sfx/r_cast.ogg",
+              "sha256": "297fe09db38d86cf152bc284c772e050d3c7ab15520e136556f1595ea25a6d3d"
+            },
+            {
+              "path": "sfx/turret_zap.ogg",
+              "sha256": "d0766713cbe0e8b471a45b920db9d983e11e4b19bef0ff18403fbf5968954bd6"
+            },
+            {
+              "path": "sfx/victory.ogg",
+              "sha256": "049c292dcb174406d96d86b7e240b47fa383d64151ec927f90c7f0f7df425469"
+            },
+            {
+              "path": "sfx/w_cast.ogg",
+              "sha256": "2151dd89ed20bf8fc01851ec27ef3c1233fb70f35e2838359c8a4f645823f454"
+            },
+            {
+              "path": "sfx/wave_horn.ogg",
+              "sha256": "f99280cf7b40633817f16940bd184374c94551dee8465e451ad1445122d99f98"
+            },
+            {
+              "path": "stream/sigf_nexus_blue.ydr",
+              "sha256": "9eed73b398a1d76b0ad0150320067e11792ef6e07fa1f261219bac5afe3ce7d1"
+            },
+            {
+              "path": "stream/sigf_nexus_blue.ytyp",
+              "sha256": "470c747fe667412ca9059b2d9f3a209a6f552c06549d21b2d4a24d733f9e6d85"
+            },
+            {
+              "path": "stream/sigf_nexus_red.ydr",
+              "sha256": "3b58bafa6011636558cd654b137e628be331d7adcd92fd8969ce27f501f0f467"
+            },
+            {
+              "path": "stream/sigf_nexus_red.ytyp",
+              "sha256": "d5181218d09f0fa000d84116f66bc84df4339ef935772e4484d91791d21cc133"
+            },
+            {
+              "path": "stream/sigf_turret_blue.ydr",
+              "sha256": "4670f1b7e8a99c09ff0df3f3ddb76cb4b9d98e3251ea0b69a0aadf05f2ac151a"
+            },
+            {
+              "path": "stream/sigf_turret_blue.ytyp",
+              "sha256": "d106b86d0c2b501d74a50dbb83ff48bea53d211a76aee6af5765dbe255494182"
+            },
+            {
+              "path": "stream/sigf_turret_red.ydr",
+              "sha256": "a19157f0b964a7a760783027d8b8499be68718d8fb8ad8d5647152d88e5d12f7"
+            },
+            {
+              "path": "stream/sigf_turret_red.ytyp",
+              "sha256": "81fa50befaa2763584e8415aae2bda2773e1d7a8a439f9e94bbd7606af9d1826"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gta5-summoner-s-los-santos/releases/download/v1.0.0/gta5-summoner-s-los-santos.zip",
+          "sha256": "4bf6c3ea6e02f542799d1343352c0cbb4d6811cd1691c688d437e5db7bc28e87",
+          "size": 10041391
+        }
+      ],
+      "runtime": "fivem"
+    }
+  ],
+  "launch": [
+    {
+      "game": "gta5",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gta5-summoner-s-los-santos.zip",
+      "url": "https://github.com/SIGFAI/gta5-summoner-s-los-santos/releases/download/v1.0.0/gta5-summoner-s-los-santos.zip",
+      "sha256": "4bf6c3ea6e02f542799d1343352c0cbb4d6811cd1691c688d437e5db7bc28e87",
+      "size": 10041391
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gta5-summoner-s-los-santos",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-126eee99.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gta5",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T21:55:48.092Z",
+  "notes": [
+    "Copy the mod folder into your FiveM server's resources as sigf_mod, add ensure sigf_mod to server.cfg and join. A lane with two nexus towers appears where you stand; minion waves march. Press Q, Z, X and C to cast Q, W, E and R (rebind them in FiveM key settings)."
+  ]
+}
